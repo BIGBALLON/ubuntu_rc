@@ -1,0 +1,14 @@
+# set hardstatus
+hardstatus on  
+hardstatus alwayslastline
+caption always "%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %=%d %M %0c %{g}%H%{-}"  
+termcapinfo rxvt 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007' 
+
+# set 
+defscrollback 2048
+
+# set the startup message  
+startup_message off    
+
+# set scrollbar
+termcapinfo xterm|xterms|xs|rxvt|urxvt|tila ti@:te@
