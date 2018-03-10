@@ -14,16 +14,3 @@ set tabstop=4
 if !exists("g:syntax_on")
 	syntax enable
 endif
-
-set rtp+=~/.vim/bundle/vim
-
-set t_Co=256
-colorscheme dracula
-
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-	Plugin 'VundleVim/Vundle.vim'
-	Plugin 'dracula/vim'
-call vundle#end()
-filetype plugin indent on 
