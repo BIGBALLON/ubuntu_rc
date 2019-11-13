@@ -46,7 +46,6 @@ bindkey -k k7 title
 
 # htop nvidia-smi
 screen -t htop	0	htop
-screen -t nvidia	1	watch -n5 nvidia-smi
 
 
 
