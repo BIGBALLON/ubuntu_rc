@@ -1,8 +1,8 @@
-set -x
-# install 
+# install basic tools
 sudo apt install git git-lfs curl vim htop tmux zsh screen -y
 
 cd ~/Downloads
+
 # install latest miniconda
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p $HOME/miniconda
@@ -11,6 +11,8 @@ conda init
 
 # install oh-my-zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/skylerlee/zeta-zsh-theme/master/scripts/install.sh)"
+# install plugin for omzsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sed -i 's/(git)/(git extract z zsh-syntax-highlighting zsh-autosuggestions)/' ~/.zshrc
