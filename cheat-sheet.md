@@ -28,6 +28,24 @@ sudo fdisk -l
 ```
 free -h
 ```
+- ps - report a snapshot of the current processes.
+
+```
+ps
+```
+
+- top - display Linux processes
+
+```
+top
+```
+
+- bg , fg and Ctrl+Z
+
+```
+program & # start a program in the background
+```
+
 
 - nl - number lines of files
 
@@ -59,7 +77,7 @@ whoami
 w
 ```
 
-# cal, ncal — displays a calendar and the date of Easter
+- cal, ncal — displays a calendar and the date of Easter
 
 ```
 cal
