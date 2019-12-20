@@ -1,85 +1,32 @@
-- uname - print system information
-
-```bash
-uname -a
-```
-
-- lshw - list hardware
-
-```bash
-sudo lshw -short
-```
-
-- lscpu - display information about the CPU architecture
-
-```bash
-lscpu
-# cat /proc/cpuinfo
-```
-
-- fdisk - manipulate disk partition table
-
-```bash
-sudo fdisk -l
-```
-
-- free - Display amount of free and used memory in the system
-
-```
-free -h
-```
-- ps - report a snapshot of the current processes.
-
-```
-ps
-```
-
-- top - display Linux processes
-
-```
-top
-```
-
-- bg , fg and Ctrl+Z
-
-```
-program & # start a program in the background
-```
-
-
-- nl - number lines of files
-
-```bash
-nl file.txt
-```
-
+- uname - Print system information.
+- lshw - List hardware.
+- lscpu - Display information about the CPU architecture.
+- fdisk - Manipulate disk partition table.
+- free - Display amount of free and used memory in the system.
+- ps - Report a snapshot of the current processes.
+- top - Display Linux processes.
+- bg, fg, & and Ctrl+Z.
+- nl - Number lines of files.
 - uptime - Tell how long the system has been running.
-
-```
-uptime
-```
-
-- date - print or set the system date and time
-
-```
-date
-```
-
-- whoami - print effective userid 
-
-```
-whoami
-```
-
+- date - Print or set the system date and time.
+- whoami - Print effective userid.
 - w - Show who is logged on and what they are doing.
-
-```
-w
-```
-
-- cal, ncal — displays a calendar and the date of Easter
-
-```
-cal
-```
-  
+- cal, ncal — Displays a calendar and the date of Easter.
+- ctrl + a or home: Go to the beginning of the line.
+- ctrl + e or End: Go to the end of the line.
+- ctrl + xx: Move between the beginning of the line and the current position of the cursor. This allows you to press Ctrl+XX to return to the start of the line, change something, and then press Ctrl+XX to go back to your original cursor position.
+- ctrl + c: Interrupt (kill) the current foreground process running in in the terminal.
+- ctrl + d: Close the bash shell.
+- ctrl + z: Suspend the current foreground process running in bash.
+- ctrl + l: Clear the screen. This is similar to running the “clear” command.
+- ctrl + s: Stop all output to the screen.
+- ctrl + q: Resume output to the screen after stopping it with ctrl + s.
+- ctrl + w: Cut the word before the cursor, adding it to the clipboard.
+- ctrl + k: Cut the part of the line after the cursor, adding it to the clipboard.
+- ctrl + u: Cut the part of the line before the cursor, adding it to the clipboard.
+- ctrl + y: Paste the last thing you cut from the clipboard. The y here stands for “yank”.
+- alt + u: Capitalize every character from the cursor to the end of the current word, converting the characters to upper case.
+- alt + l: Uncapitalize every character from the cursor to the end of the current word, converting the characters to lower case.
+- alt + c: Capitalize the character under the cursor. Your cursor will move to the end of the current word.
+- alt + r: Revert any changes to a command you’ve pulled from your history if you’ve edited it.
+- ctrl + r: Recall the last command matching the characters you provide. Press this shortcut and start typing to search your bash history for a command.
