@@ -1,19 +1,46 @@
-- uname - Print system information.
-- lshw - List hardware.
-- lscpu - Display information about the CPU architecture.
-- fdisk - Manipulate disk partition table.
-- free - Display amount of free and used memory in the system.
-- ps - Report a snapshot of the current processes.
-- top - Display Linux processes.
-- bg, fg, & and Ctrl+Z.
-- nl - Number lines of files.
+- uname - print system information
+- lshw - list hardware
+- lscpu - display information about the CPU architecture
+- fdisk - manipulate disk partition table
+- df - report file system disk space usage
+- free - display amount of free and used memory in the system
+- bg, fg, & and Ctrl+Z
+- ps - report a snapshot of the current processes
+- grep, egrep, fgrep, rgrep - print lines matching a pattern
+- diff - compare files line by line
+- find - search for files in a directory hierarchy
+- echo - display a line of text
+- history - GNU History Library
+- kill - send a signal to a process
+- groups - print the groups a user is in
+- chmod - change file mode bits
+- chgrp - change group ownership
+- chown - change file owner and group
+- curl - transfer a URL
+- wget - The non-interactive network downloader
+- top - display Linux processes
+- nl - Number lines of files
+- cat - concatenate files and print on the standard output
+- less - opposite of more
+- wc - print newline, word, and byte counts for each file
+- mv - move (rename) files
+- cp - copy files and directories
+- pwd - print name of current/working directory
+- mkdir - make directories 
+- passwd - change user password
+- ping - send ICMP ECHO_REQUEST to network hosts
+- head - output the first part of files
+- tail - output the last part of files
 - uptime - Tell how long the system has been running.
 - date - Print or set the system date and time.
 - whoami - Print effective userid.
-- w - Show who is logged on and what they are doing.
-- cal, ncal — Displays a calendar and the date of Easter.
+- shutdown - Halt, power-off or reboot the machine
+- w - show who is logged on and what they are doing
+- ssh — OpenSSH SSH client (remote login program)
+- cal, ncal — displays a calendar and the date of Easter
 - ctrl + a or home: Go to the beginning of the line.
 - ctrl + e or End: Go to the end of the line.
+- nvidia-smi: NVIDIA System Management Interface program
 - ctrl + xx: Move between the beginning of the line and the current position of the cursor. This allows you to press Ctrl+XX to return to the start of the line, change something, and then press Ctrl+XX to go back to your original cursor position.
 - ctrl + c: Interrupt (kill) the current foreground process running in in the terminal.
 - ctrl + d: Close the bash shell.
