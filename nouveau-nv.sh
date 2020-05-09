@@ -8,6 +8,3 @@ add-apt-repository ppa:graphics-drivers/ppa
 apt-get update
 
 update-initramfs -u
-reboot
-
-
